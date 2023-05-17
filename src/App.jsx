@@ -27,6 +27,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
+        <h1>hello world</h1>
         <Route path="/UsersReg.jsx" element={<UsersReg />} />
         <Route path="/LoginUsers.jsx" element={<LoginUsers />} />
         <Route path="/usersAdminReg.jsx" element={<UsersAdminReg />} />
